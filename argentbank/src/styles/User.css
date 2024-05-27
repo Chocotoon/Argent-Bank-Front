@@ -1,0 +1,71 @@
+.edit-button {
+    border-color: #00bc77;
+    background-color: #00bc77;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.main {
+    flex: 1;
+  }
+  
+.header {
+    color: #fff;
+    margin-bottom: 2rem;
+}
+
+.bg-dark {
+    background-color: #12002b;
+}
+
+.sr-only {
+    border: 0 !important;
+    clip: rect(1px, 1px, 1px, 1px) !important;
+    /* 1 */
+    -webkit-clip-path: inset(50%) !important;
+    clip-path: inset(50%) !important;
+    /* 2 */
+    height: 1px !important;
+    margin: -1px !important;
+    overflow: hidden !important;
+    padding: 0 !important;
+    position: absolute !important;
+    width: 1px !important;
+    white-space: nowrap !important;
+    /* 3 */
+}
+
+.flex {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.bg-light {
+    background-color: #dce4ec;
+}
+
+.save-button, .cancel-button {
+    color: #6042f5;
+    background-color: white;
+    width: 120px;
+    height: 30px;
+    border: 1px solid #6042f5;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.fields {
+    margin: 10px 0px;
+}
+
+.fields input {
+    width: 150px;
+    height: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 8px;
+    border: 1px solid lightgray;
+}
